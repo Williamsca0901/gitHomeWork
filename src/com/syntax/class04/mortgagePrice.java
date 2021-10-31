@@ -3,7 +3,7 @@ package com.syntax.class04;
 public class mortgagePrice {
 
 	public static void main(String[] args) {
-		double rate=4.6;
+		double rate=4.3;
 		double homePrice=100000;
 		
 		if (rate>4.5) {

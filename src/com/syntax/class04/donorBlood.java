@@ -4,11 +4,11 @@ public class donorBlood {
 
 	public static void main(String[] args) {
 		int age=19;
-		double weight=110;
+		double weight=115;
 		
 		if (age>=18) {
 			System.out.println("You are eligible to donate blood");
-		if (weight>=110) {
+		if (weight>=120) {
 			System.out.println("We can accept the patient");
 			
 		}else {

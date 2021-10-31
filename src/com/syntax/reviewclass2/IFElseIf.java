@@ -4,7 +4,7 @@ public class IFElseIf {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-int num=10;
+int num=11;
 int num2=12;
 if (num>num2) {
 	System.out.println("Number1 is greater than number2");

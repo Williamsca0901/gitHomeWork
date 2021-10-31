@@ -6,16 +6,16 @@ public class TypeCasting {
 		// TODO Auto-generated method stub
 		double number=10;//define
 		int number2;//define
-		number2=(int)number; //assigning
+		number2=(int)number; //assigning, explicit-narrowing big to small
 		System.out.println(number2);
 		
 		int number3=10;
-		double number4=number3;
-		int number5=1256;
+		double number4=number3;//implicit,widening small to big
+		int number5=1234;
 		byte number6=(byte)number5;
 System.out.println(number6);
 
-short number7=12;
+short number7=126;
 byte number8=(byte)number7;
 
 int number9=10000;

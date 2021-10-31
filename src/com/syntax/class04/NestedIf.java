@@ -6,7 +6,7 @@ public class NestedIf {
 
 	boolean vaccine=false;
 	
-	int dose=2;
+	int dose=1;
 	if(vaccine) {
 		System.out.println("How many doses have taken?");
 		if(dose==1) {
@@ -17,9 +17,9 @@ public class NestedIf {
 		}
 	}
 System.out.println("**************");
-	String day= "Friday";
-	 int date=13;
-	 int time=12;
+	String day= "Monday";
+	 int date=14;
+	 int time=14;
 	 if(day.equals("Friday")) {
 		 System.out.println("I am going to the movies today");
 		 if (date==13) {
@@ -29,7 +29,7 @@ System.out.println("**************");
 		 }
 	 }else {
 		 System.out.println("I am going to study");
-		 if (time>23) {
+		 if (time>13) {
 			 System.out.println("I have to go to sleep cause I have class");
 		 }
 	

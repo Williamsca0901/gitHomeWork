@@ -8,7 +8,9 @@ public class IfNoBraces {
 		if (sunny) {
 			System.out.println("Today is sunny weather");
 			System.out.println("I will go for a walk");
-			System.out.println("I enjoy sun");
+			System.out.println("I will enjoy sun");
+		}else {
+			System.out.println("I have to study");
 		}
 
 	}
