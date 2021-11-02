@@ -15,7 +15,7 @@ public class HW2 {
 		double money;
 		double remainder;
 		double sum = 0;
-		System.out.println("Please enter the item you wan  t to purchase");
+		System.out.println("Please enter the item you want to purchase");
 		item = input.next();
 		System.out.println("Please enter the price");
 		price = input.nextDouble();

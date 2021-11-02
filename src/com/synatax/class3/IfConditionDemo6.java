@@ -4,7 +4,7 @@ public class IfConditionDemo6 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-int day=4;
+int day=7;
 if (day==1) {
 	System.out.println("Monday");
 }else if (day==2) {
@@ -19,12 +19,8 @@ System.out.println("Friday");
 System.out.println("Saturday");
 }else if (day==7);
 System.out.println("Suday");
- 
+
 System.out.println("Wrong day");
 
-		
-
-
 	}
-
 }
