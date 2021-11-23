@@ -5,7 +5,7 @@ public class ScannerDemo2 {
 
 	public static void main(String[] args) {
 		
-		Scanner input=new (System.in);
+		Scanner input=new Scanner(System.in);
 		System.out.println("Please enter an item you want to buy");
 		
 		String item=input.next();//String till space (1 word)

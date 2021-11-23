@@ -10,11 +10,11 @@ public class LargestNumber {
 		double num2 = scan.nextDouble();
 		double num3 = scan.nextDouble();
 		
-	if (num1==num2 && num1==num3) {
+	if (num1>=num2 && num1>num3) {
 		System.out.println("Numbers are equal");
 	}else {
 		
-	} if (num1>=num2 && num1>num3) {
+	} if (num2>=num3 && num2>num1) {
 		System.out.println(num1+"is the largest number");
 		
 		if (num1%2==0) {

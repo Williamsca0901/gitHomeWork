@@ -17,7 +17,9 @@ public class NestedIfMoreExamples {
 				System.out.println("You need to try more hw");
 			}else {
 			}System.out.println("Why?");
-			}
+			
+		
+			
 	}else {
 			System.out.println("Please make sure you do your homework");
 		}

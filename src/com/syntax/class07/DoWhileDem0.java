@@ -14,7 +14,7 @@ public class DoWhileDem0 {
 		do {
 			System.out.println("Hello");
 			b++;
-		}while(b<=3);
+		}while(b<=2);
 
 }
 	}
